@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get '/number' => 'main#number'
   get '/team/:team' => 'main#team'
   get '/answers/:number' => 'main#answers'
-  get '/game/:num' => 'game#try'
+  get '/game' => 'game#try'
   get '/new_game' => 'game#reset'
   get '/user_name/:user' => 'game#user'
 
